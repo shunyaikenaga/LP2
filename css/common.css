@@ -114,3 +114,164 @@ header .drawer {
   width: 500px;
   height: auto;
 }
+
+.feature {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.feature .inner {
+  padding: 0 32px;
+  margin-bottom: 100px;
+}
+
+.feature .inner p {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.font2 {
+  color: #5B8FAD;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+
+.font2::after {
+  content: "";
+  background: #5B8FAD;
+  height: 2px;
+  width: 100px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.section {
+  position: relative;
+  padding: 150px 0;
+}
+
+.section::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 600px;
+  background: linear-gradient(10deg, #FAF5F5 20%,rgb(189, 120, 230) 40%,#5B8FAD);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.intro {
+  background: rgb(250, 245, 245);
+}
+
+.intro .inner {
+  position: relative;
+  z-index: 2;
+}
+
+.font3 {
+  font-size: 45px;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 50px;
+  line-height: 1.5;
+}
+
+.font3 small {
+  display: block;
+  font-size: 11px;
+}
+
+.app {
+  background: linear-gradient(#fff, rgb(250, 245, 245));
+  border-radius: 30px;
+  padding: 100px 20px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.app_wrap {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.app .app_item {
+  margin: 75px 50px 0 0;
+}
+
+.font4 {
+  font-size: 25px;
+  line-height: 1.3;
+  padding: 30px 0;
+}
+
+.font5 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.font5 strong {
+  color: #5B8FAD;
+}
+
+.app .descript {
+  font-size: 14px;
+  line-height: 2;
+}
+
+.app .app_img {
+  display: inline-block;
+}
+
+.app .app_img img {
+  width: 300px;
+  height: auto;
+}
+
+.how {
+  background: rgb(250, 245, 245);
+}
+
+.how .inner {
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+
+.how_to {
+  background: linear-gradient(#fff, rgb(250, 245, 245));
+  width: 40%;
+  display: inline-block;
+  border-radius: 30px;
+  padding-bottom: 100px;
+  line-height: 2;
+}
+
+.how_list li {
+  border: 2px solid #ddd;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 2px;
+  width: 60%;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
