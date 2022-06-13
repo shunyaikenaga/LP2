@@ -344,3 +344,81 @@ p {
 .news .txt ul li strong {
   color: #5B8FAD;
 }
+
+.contact_btn {
+  background: rgb(250, 245, 245);
+  padding-bottom: 100px;
+}
+
+.contact_btn .btn {
+  text-align: center;
+  background: #e6a117;
+  width: 17%;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.contact_btn .btn a {
+  color: #fff;
+  font-weight: bold;
+}
+
+footer {
+  background: #555;
+  padding: 50px 50px 20px;
+}
+
+.footer_logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer_logo1 img {
+  width: 200px;
+}
+
+.footer_logo2 img {
+  width: 50px;
+}
+
+.pages {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.pages .grid {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.pages .last {
+  border-left: 2px solid #fff;
+  padding-left: 10px;
+}
+
+.pages .grid li {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.pages .grid li a {
+  color: #fff;
+}
+
+.mail {
+  font-weight: bold;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 10px;
+  margin-top: 10px;
+  color: #fff;
+}
